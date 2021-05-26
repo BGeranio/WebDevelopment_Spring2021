@@ -1,0 +1,38 @@
+extends layout
+  
+
+block content
+   
+  #container 
+    h2.caroTitle Check out this sweet Bootstrap Carousel!
+    #myCarousel.carousel.slide(data-ride='carousel')
+    
+      .carousel-inner
+        .item.active  
+          img(src="/images/biscuits.jpg", alt="what!")
+          p.desc from http://www.twoofakindcooks.com/flaky-buttermilk-biscuits/
+        .item 
+          img(src='/images/naan.jpg', alt='what!')
+          p.desc from https://www.budgetbytes.com/naan/
+        .item 
+          img(src='/images/strawbPie.jpg', alt='what!')
+          p.desc from https://sugarapron.com/2016/04/04/fresh-strawberry-pie-homemade-butter-crust/
+
+      a.left.carousel-control(href='#myCarousel' data-slide='prev')
+        span.glyphicon.glyphicon-chevron-left
+        span.sr-only Prev 
+
+      a.right.carousel-control(href='#myCarousel' data-slide ='next')
+        span.glyphicon.glyphicon-chevron-right
+        span.sr-only Next
+
+      
+
+
+
+
+   
+  
+  
+      
+

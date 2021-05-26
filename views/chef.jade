@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1= title
+  p.chefParagraph(style='white-space:pre;')
+    |  What makes a chef? In a way we were all born to cook. Sort of our way of surviving. 
+    |  But a chef is not just another cook. They are an artist.
+    |  A taster, a maker, and obviously a baker. 
+    |  Simply put, a chef is just another cook, with a bit more admiration for butter.
+
+  .chefButtons
+    form(action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php", method="get") 
+      input(type="submit", value="Submit a GET")
+
+    a(href='/images/biscuits.jpg' download) 
+      button Get biscuits!
+
+    a(href='https://www.w3schools.com/default.asp') 
+      button Click for HTML help
