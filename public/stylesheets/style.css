@@ -1,0 +1,104 @@
+#homePageTitle {
+  text-align: left;
+  background-color:blueviolet;
+  color: aqua;
+  margin: 0;
+  display: inline;
+  padding: 3px;
+}
+
+#homeText {
+  text-align: center;
+  background-color: aquamarine;
+}
+
+#title {
+  text-align: center;
+  color: rgb(20, 172, 134);
+  background-color: rgb(174, 236, 207);
+}
+#recImages {
+    display: inline-block;
+    align-items: left; 
+}
+
+
+#recImages img{ 
+  border: 1px solid #777;
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+  float: left;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    display: block;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin: auto;
+  }
+
+.caroTitle {
+    text-align: center;
+}
+
+.homeButtons {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8de0be;     
+}
+
+.homeButtons li {
+    border-right: 1px solid #771950;
+    float: left; 
+}
+
+.homeButtons li a {
+    display: block;
+    color: #000;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.homeButtons li a .active {
+    background-color: #4CAF50;
+}
+
+.homeButtons li a:hover {
+    background-color: #555;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.scrollBar {
+    margin: left;
+    display: inline;
+    height: 400px;
+    width: 900px;
+    overflow: auto;    
+    white-space: nowrap;
+}
+
+.chefButtons form {
+  display: inline-block;
+  color: #000;
+  padding: 8px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.chefButtons a{
+  display: inline-block;
+  color: #000;
+  padding: 8px;
+  text-decoration: none;
+  text-align: left;
+}
